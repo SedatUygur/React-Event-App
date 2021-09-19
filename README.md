@@ -21,7 +21,7 @@ https://medium.com/innovance-company-blog/npm-vs-yarn-vs-pnpm-f71796b9b085
 
 yarn add react-scripts
 
-yarn add typescript (If you want to use the supported typescript version, you can run "yarn add typescript@4.2.4")
+yarn add typescript (If you want to use the supported typescript version, you can run the command like "yarn add typescript@4.2.4")
 
 yarn start for development mode
 

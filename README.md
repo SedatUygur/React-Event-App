@@ -10,7 +10,14 @@ React Event App using React, React Scripts and Leaflet
 
 Why I use Yarn? I think Yarn is better than npm in many ways. You can read these articles to understand it better.
 https://www.whitesourcesoftware.com/free-developer-tools/blog/npm-vs-yarn-which-should-you-choose/
+
 https://medium.com/innovance-company-blog/npm-vs-yarn-vs-pnpm-f71796b9b085
+
+yarn add react-scripts
+
+yarn add typescript (If you want to use the supported typescript version, you can run "yarn add typescript@4.2.4")
+
+yarn start
 
 if you can get an error like "an unexpected error occurred ...:ESOCKETTIMEDOUT", you can increase the network timeout "yarn config set network-timeout 300000"
 
@@ -39,11 +46,5 @@ to
 
 Delete node_modeules/.cache directory. 
 Then run npm install and npm start (Reference : https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat)
-
-yarn add react-scripts
-
-yarn add typescript (If you want to use the supported typescript version, you can run "yarn add typescript@4.2.4")
-
-yarn start
 
 If you see Browserslist: caniuse-lite is outdated, you can run "npx browserslist@latest --update-db"

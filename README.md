@@ -12,6 +12,7 @@ React Event App using React, React Scripts and Leaflet
 # Why do I use Yarn?
 
 I think Yarn is better than npm in many ways. You can read these articles to understand it better.
+
 https://www.whitesourcesoftware.com/free-developer-tools/blog/npm-vs-yarn-which-should-you-choose/
 
 https://medium.com/innovance-company-blog/npm-vs-yarn-vs-pnpm-f71796b9b085

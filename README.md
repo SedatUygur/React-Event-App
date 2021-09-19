@@ -31,7 +31,9 @@ yarn build for production mode
 
 if you can get an error like "an unexpected error occurred ...:ESOCKETTIMEDOUT", you can increase the network timeout "yarn config set network-timeout 300000"
 
-if you can get an error like this "./node_modules/@react-leaflet/core/esm/path.js Module parse failed: Unexpected token", you can replace this part of your package.json 
+if you can get an error like this "./node_modules/@react-leaflet/core/esm/path.js Module parse failed: Unexpected token",
+
+you can replace this part of your package.json 
 
 "browserslist": {
     "production": [
@@ -55,6 +57,7 @@ to
 ]
 
 Delete node_modeules/.cache directory. 
-Then run npm install and npm start (Reference : https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat)
+Then run yarn install and yarn start. If there is any problem with Yarn you can not solve, you can use npm.
+Reference : https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat
 
-If you see Browserslist: caniuse-lite is outdated, you can run "npx browserslist@latest --update-db"
+If you see "Browserslist: caniuse-lite is outdated" message in command line, you can run "npx browserslist@latest --update-db"

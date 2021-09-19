@@ -42,8 +42,8 @@ Then run npm install and npm start (Reference : https://stackoverflow.com/questi
 
 yarn add react-scripts
 
-yarn add typescript If you want to use the supported typescript version, you can run "yarn add typescript@4.2.4"
+yarn add typescript (If you want to use the supported typescript version, you can run "yarn add typescript@4.2.4")
 
 yarn start
 
-If you see Browserslist: caniuse-lite is outdated, You can run "npx browserslist@latest --update-db"
+If you see Browserslist: caniuse-lite is outdated, you can run "npx browserslist@latest --update-db"

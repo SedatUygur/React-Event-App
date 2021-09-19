@@ -57,7 +57,11 @@ to
 ]
 
 Delete node_modeules/.cache directory. 
-Then run yarn install and yarn start. If there is any problem with Yarn you can not solve, you can use npm.
+
+Then run yarn install and yarn start. 
+
+If there is any problem with Yarn you can not solve, you can use npm.
+
 Reference : https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat
 
 If you see "Browserslist: caniuse-lite is outdated" message in command line, you can run "npx browserslist@latest --update-db"
